@@ -59,3 +59,34 @@
 [03:13:59] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
 [03:13:59] [Server thread/INFO]: Done (50.211s)! For help, type "help"
 [03:13:59] [Server thread/INFO]: Timings Reset
+[03:35:03] [Server thread/INFO]: Unknown or incomplete command, see below for error
+1<--[HERE]
+[03:35:09] [Server thread/INFO]: Stopping the server
+[03:35:09] [Server thread/INFO]: Stopping server
+[03:35:09] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.0-SNAPSHOT
+[03:35:09] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[03:35:09] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:35:09] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[03:35:09] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:35:09] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[03:35:09] [Server thread/INFO]: Saving players
+[03:35:09] [Server thread/INFO]: Saving worlds
+[03:35:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'world' in 0.01s
+[03:35:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[03:35:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:35:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[03:35:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:35:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:35:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:35:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
