@@ -1452,3 +1452,35 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:45:07] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to -383.500000, 76.000000, -592.500000]
 [05:47:50] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
 [05:47:50] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[05:51:21] [Server thread/INFO]: .flama234 fell from a high place
+[05:51:31] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[05:51:31] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[05:51:31] [Server thread/WARN]: .flama234 moved too quickly! 21.499756026210182,-2.0,0.9666533592042015
+[05:52:49] [Async Chat Thread - #1/INFO]: [Not Secure] <.flama234> puta
+[05:52:54] [Async Chat Thread - #1/INFO]: [Not Secure] <.flama234> uta
+[05:52:58] [Async Chat Thread - #1/INFO]: [Not Secure] <.flama234> cocoa
+[05:55:33] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:55:53] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[05:55:53] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:55:53] [Server thread/WARN]: .flama234 moved too quickly! 30.126890398128484,40.0,264.3941694276805
+[05:57:26] [Server thread/INFO]: .CrossJuli_uwu was slain by .flama234
+[05:58:25] [Server thread/INFO]: .CrossJuli_uwu was slain by .flama234
+[05:58:27] [Server thread/INFO]: .flama234 has made the advancement [Diamonds!]
+[05:59:01] [Server thread/INFO]: .flama234 was slain by .CrossJuli_uwu
+[05:59:09] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[05:59:09] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:00:22] [Server thread/INFO]: .flama234 was slain by tsubakitadake
