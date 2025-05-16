@@ -1446,3 +1446,9 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:26:48] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -224.21268833786655,54.0,-323.98077402851965
 [05:27:34] [Server thread/INFO]: tsubakitadake was blown up by Creeper
 [05:30:25] [Server thread/INFO]: .flama234 has made the advancement [Acquire Hardware]
+[05:41:03] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[05:41:03] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[05:45:07] [Server thread/INFO]: tsubakitadake issued server command: /tp -384 76 -593
+[05:45:07] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to -383.500000, 76.000000, -592.500000]
+[05:47:50] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[05:47:50] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
