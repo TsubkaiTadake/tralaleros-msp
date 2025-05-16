@@ -1484,3 +1484,25 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:59:09] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
 [05:59:09] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
 [06:00:22] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[06:02:53] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:02:53] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:03:15] [Server thread/INFO]: .flama234 fell from a high place
+[06:03:31] [Server thread/INFO]: .flama234 was slain by .CrossJuli_uwu
+[06:03:36] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:03:36] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:03:36] [Server thread/WARN]: .flama234 moved too quickly! -58.511469078587226,-44.0,-235.1383666263963
+[06:05:19] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[06:08:23] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:08:23] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:08:23] [Server thread/WARN]: .flama234 moved too quickly! -46.054701665577156,-9.0,-46.143791054239664
+[06:08:23] [Server thread/WARN]: .flama234 moved too quickly! -46.054701665577156,-9.0,-46.143791054239664
+[06:08:23] [Server thread/WARN]: .flama234 moved too quickly! -46.054701665577156,-9.0,-46.143791054239664
+[06:08:23] [Server thread/WARN]: .flama234 moved too quickly! -46.054701665577156,-9.0,-46.143791054239664
+[06:09:17] [Server thread/INFO]: .flama234 has made the advancement [Isn't It Iron Pick]
+[06:09:22] [Server thread/INFO]: .flama234 has made the advancement [Stone Age]
