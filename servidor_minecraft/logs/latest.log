@@ -765,3 +765,58 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [04:28:41] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
 [04:28:41] [Server thread/INFO]: .flama234 left the game
 [04:28:49] [Server thread/INFO]: tsubakitadake issued server command: /skins
+[04:30:41] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username flama234
+[04:30:41] [localSession-7-3/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[04:30:42] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[04:30:42] [Server thread/INFO]: .flama234 joined the game
+[04:30:42] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 1680 at ([world]20.50557, 103.0, 3.7130582)
+[04:31:06] [Server thread/INFO]: tsubakitadake has made the advancement [Stone Age]
+[04:31:30] [Server thread/INFO]: .flama234 issued server command: /skin set zStrykzz
+[04:31:36] [Server thread/INFO]: tsubakitadake has made the advancement [Getting an Upgrade]
+[04:31:44] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[04:31:56] [Server thread/INFO]: tsubakitadake was slain by .CrossJuli_uwu
+[04:32:34] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
+[04:32:48] [Server thread/INFO]: .flama234 was shot by Skeleton
+[04:33:14] [Server thread/INFO]: tsubakitadake issued server command: /time set day
+[04:33:14] [Server thread/INFO]: [tsubakitadake: Set the time to 1000]
+[04:33:31] [Server thread/INFO]: tsubakitadake has made the advancement [Monster Hunter]
+[04:33:34] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Monster Hunter]
+[04:33:36] [Server thread/INFO]: .flama234 was slain by Spider
+[04:33:55] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [The Parrots and the Bats]
+[04:35:01] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[04:35:02] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:02] [Server thread/WARN]: .flama234 moved too quickly! 97.4806599859417,4.747799999999998,23.452697390237454
+[04:35:11] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[04:35:11] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[04:35:11] [Server thread/WARN]: .flama234 moved too quickly! -1.9467335806184138,3.9399899999999946,-9.134340797124961
+[04:35:11] [Server thread/WARN]: .flama234 moved too quickly! -2.197716,3.4876000000000005,-9.319440600000002
+[04:35:16] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[04:35:16] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[04:35:25] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[04:35:25] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[04:35:39] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Suit Up]
+[04:35:45] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Acquire Hardware]
+[04:35:46] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Isn't It Iron Pick]
+[04:36:09] [Server thread/INFO]: .flama234 has made the advancement [Suit Up]
+[04:36:54] [Server thread/INFO]: tsubakitadake has made the advancement [Acquire Hardware]
+[04:38:01] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[04:38:07] [Server thread/INFO]: tsubakitadake has made the advancement [Suit Up]
+[04:38:11] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[04:38:11] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:11] [Server thread/WARN]: .flama234 moved too quickly! -70.00000998807906,11.0,18.546008043295338
+[04:38:43] [Server thread/INFO]: tsubakitadake has made the advancement [Isn't It Iron Pick]
