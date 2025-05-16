@@ -1506,3 +1506,13 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [06:08:23] [Server thread/WARN]: .flama234 moved too quickly! -46.054701665577156,-9.0,-46.143791054239664
 [06:09:17] [Server thread/INFO]: .flama234 has made the advancement [Isn't It Iron Pick]
 [06:09:22] [Server thread/INFO]: .flama234 has made the advancement [Stone Age]
+[06:11:36] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[06:11:36] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[06:11:36] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[06:11:36] [Server thread/INFO]: .flama234 left the game
+[06:12:03] [Server thread/INFO]: tsubakitadake lost connection: Disconnected
+[06:12:03] [Server thread/INFO]: tsubakitadake left the game
+[06:14:23] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[06:14:23] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[06:14:23] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[06:14:23] [Server thread/INFO]: .CrossJuli_uwu left the game
