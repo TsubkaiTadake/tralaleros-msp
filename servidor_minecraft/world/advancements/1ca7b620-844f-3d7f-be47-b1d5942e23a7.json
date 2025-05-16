@@ -89,5 +89,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2025-05-16 03:11:22 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-05-16 03:11:22 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }
