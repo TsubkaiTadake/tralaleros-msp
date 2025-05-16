@@ -967,3 +967,16 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [04:44:18] [Server thread/INFO]: [tsubakitadake: Set the time to 1000]
 [04:45:19] [Server thread/INFO]: .flama234 has made the advancement [Getting an Upgrade]
 [04:45:31] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Stone Age]
+[04:50:01] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[04:50:01] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[04:50:01] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[04:50:01] [Server thread/INFO]: .flama234 left the game
+[04:51:04] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username flama234
+[04:51:04] [localSession-7-4/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[04:51:05] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[04:51:05] [Server thread/INFO]: .flama234 joined the game
+[04:51:05] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 6327 at ([world]101.879906, 87.0, -181.64174)
+[04:54:56] [Server thread/INFO]: tsubakitadake issued server command: /time set day
+[04:54:56] [Server thread/INFO]: [tsubakitadake: Set the time to 1000]
+[04:57:54] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[04:57:54] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
