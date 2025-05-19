@@ -170,3 +170,16 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:17:43] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
 [05:17:43] [Server thread/INFO]: .CrossJuli_uwu joined the game
 [05:17:43] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 1300 at ([world]87.80591, 125.0, 137.30001)
+[05:22:26] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:26:58] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:26:59] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [A Seedy Place]
+[05:27:08] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:27:42] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[05:27:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[05:27:42] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[05:27:42] [Server thread/INFO]: .flama234 left the game
+[05:28:21] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username flama234
+[05:28:21] [localSession-7-4/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[05:28:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[05:28:21] [Server thread/INFO]: .flama234 joined the game
+[05:28:21] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 3742 at ([world]23.182858, 72.0, -159.49896)
