@@ -221,3 +221,6 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [06:12:28] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
 [06:16:03] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
 [06:16:03] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:22:06] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:22:06] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:24:23] [Server thread/INFO]: .flama234 has made the advancement [Lighten Up]

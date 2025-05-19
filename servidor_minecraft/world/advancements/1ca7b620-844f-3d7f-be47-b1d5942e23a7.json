@@ -346,6 +346,7 @@
       "cooked_porkchop": "2025-05-19 06:16:34 +0000",
       "bread": "2025-05-16 04:36:16 +0000",
       "rotten_flesh": "2025-05-16 04:34:24 +0000",
+      "cooked_mutton": "2025-05-19 06:21:55 +0000",
       "cooked_beef": "2025-05-19 06:05:04 +0000"
     },
     "done": false
@@ -1664,6 +1665,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-19 06:27:43 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_granite": {
     "criteria": {
       "has_granite": "2025-05-19 05:30:51 +0000"
@@ -1892,6 +1899,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-19 06:21:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_candle": {
     "criteria": {
       "has_brown_dye": "2025-05-19 06:17:24 +0000"
@@ -1937,6 +1950,12 @@
   "minecraft:recipes/building_blocks/birch_slab": {
     "criteria": {
       "has_planks": "2025-05-19 05:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-19 06:21:34 +0000"
     },
     "done": true
   },
