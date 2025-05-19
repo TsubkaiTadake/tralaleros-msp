@@ -8,8 +8,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2025-05-16 04:34:42 +0000",
+      "minecraft:forest": "2025-05-19 05:44:05 +0000",
       "minecraft:cherry_grove": "2025-05-16 04:21:42 +0000",
       "minecraft:river": "2025-05-16 05:15:35 +0000",
+      "minecraft:meadow": "2025-05-19 05:44:46 +0000",
       "minecraft:stony_shore": "2025-05-16 05:21:58 +0000",
       "minecraft:frozen_peaks": "2025-05-16 04:34:31 +0000",
       "minecraft:plains": "2025-05-16 04:32:37 +0000"
@@ -1211,18 +1213,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2025-05-19 05:31:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-05-19 05:26:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2025-05-19 05:21:44 +0000"
@@ -1232,6 +1222,36 @@
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2025-05-19 05:21:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-05-19 05:26:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-05-19 05:31:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-05-19 05:46:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-05-19 05:44:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-19 05:44:41 +0000"
     },
     "done": true
   },

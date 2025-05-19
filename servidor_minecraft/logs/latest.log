@@ -188,3 +188,16 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:34:01] [Server thread/INFO]: tsubakitadake has made the advancement [Diamonds!]
 [05:35:16] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 9.3161138,3.747799999999998,2.014949999999999
 [05:36:36] [Server thread/INFO]: tsubakitadake has made the advancement [Minecraft: Trial(s) Edition]
+[05:39:39] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[05:39:39] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[05:39:40] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[05:39:40] [Server thread/INFO]: .CrossJuli_uwu left the game
+[05:42:46] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[05:42:46] [localSession-7-1/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[05:42:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[05:42:47] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[05:42:47] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 8002 at ([world]27.5, 72.0, -159.5)
+[05:46:26] [Server thread/INFO]: .flama234 was slain by Zombie
+[05:46:28] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
+[05:48:42] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[05:48:42] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
