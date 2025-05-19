@@ -375,6 +375,7 @@
       "mutton": "2025-05-16 05:13:23 +0000",
       "apple": "2025-05-16 04:42:30 +0000",
       "bread": "2025-05-16 04:37:15 +0000",
+      "honey_bottle": "2025-05-19 06:41:37 +0000",
       "rotten_flesh": "2025-05-16 05:13:56 +0000",
       "cooked_mutton": "2025-05-19 05:24:52 +0000",
       "porkchop": "2025-05-19 05:58:09 +0000"
@@ -1263,9 +1264,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2025-05-19 06:42:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "salmon_bucket": "2025-05-19 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
     },
     "done": true
   },
@@ -1287,6 +1306,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
     "criteria": {
       "has_porkchop": "2025-05-19 05:57:36 +0000"
@@ -1296,6 +1321,18 @@
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2025-05-19 05:44:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-05-19 06:41:44 +0000"
     },
     "done": true
   },
@@ -1314,6 +1351,24 @@
   "minecraft:recipes/redstone/honey_block": {
     "criteria": {
       "has_honey_bottle": "2025-05-19 06:36:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2025-05-19 06:40:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-05-19 06:42:19 +0000"
     },
     "done": true
   },
