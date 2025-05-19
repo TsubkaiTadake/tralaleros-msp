@@ -375,7 +375,8 @@
       "apple": "2025-05-16 04:42:30 +0000",
       "bread": "2025-05-16 04:37:15 +0000",
       "rotten_flesh": "2025-05-16 05:13:56 +0000",
-      "cooked_mutton": "2025-05-19 05:24:52 +0000"
+      "cooked_mutton": "2025-05-19 05:24:52 +0000",
+      "porkchop": "2025-05-19 05:58:09 +0000"
     },
     "done": false
   },
@@ -1255,6 +1256,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "salmon_bucket": "2025-05-19 05:58:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-05-19 05:58:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/map": {
     "criteria": {
       "has_compass": "2025-05-19 05:46:28 +0000"
@@ -1282,6 +1295,12 @@
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-05-19 05:57:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-05-19 05:58:18 +0000"
     },
     "done": true
   },

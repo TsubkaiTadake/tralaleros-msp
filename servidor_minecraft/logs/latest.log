@@ -209,3 +209,10 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [05:56:38] [Server thread/INFO]: tsubakitadake has made the advancement [Cover Me with Diamonds]
 [05:58:28] [Server thread/INFO]: .flama234 has made the advancement [Wax Off]
 [05:58:46] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Tactical Fishing]
+[05:59:46] [Server thread/INFO]: .flama234 has made the advancement [Cover Me with Diamonds]
+[06:00:04] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:00:04] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:05:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:05:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:08:22] [Server thread/INFO]: tsubakitadake issued server command: /weather clear
+[06:08:22] [Server thread/INFO]: [tsubakitadake: Set the weather to clear]

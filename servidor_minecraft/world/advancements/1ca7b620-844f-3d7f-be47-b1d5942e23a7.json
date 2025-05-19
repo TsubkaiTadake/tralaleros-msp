@@ -270,7 +270,8 @@
     "criteria": {
       "minecraft:skeleton": "2025-05-16 04:33:58 +0000",
       "minecraft:spider": "2025-05-16 04:33:45 +0000",
-      "minecraft:zombie": "2025-05-16 04:33:31 +0000"
+      "minecraft:zombie": "2025-05-16 04:33:31 +0000",
+      "minecraft:creeper": "2025-05-19 06:02:37 +0000"
     },
     "done": false
   },
@@ -1601,6 +1602,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2025-05-19 05:56:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-19 05:32:04 +0000"
@@ -1745,6 +1752,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-05-19 06:02:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_tuff": {
     "criteria": {
       "has_tuff": "2025-05-19 05:41:03 +0000"
@@ -1772,6 +1785,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2025-05-19 05:32:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-05-19 06:02:38 +0000"
     },
     "done": true
   },
