@@ -380,6 +380,7 @@
       "honey_bottle": "2025-05-19 06:41:37 +0000",
       "rotten_flesh": "2025-05-16 05:13:56 +0000",
       "cooked_mutton": "2025-05-19 05:24:52 +0000",
+      "potato": "2025-05-19 07:16:55 +0000",
       "porkchop": "2025-05-19 05:58:09 +0000"
     },
     "done": false
@@ -1266,6 +1267,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-05-19 07:16:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop": {
     "criteria": {
       "has_porkchop": "2025-05-19 05:57:36 +0000"
@@ -1296,6 +1303,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-05-19 07:16:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-05-19 07:16:50 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "salmon_bucket": "2025-05-19 05:58:46 +0000"
@@ -1305,6 +1324,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2025-05-19 06:53:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-05-19 07:16:47 +0000"
     },
     "done": true
   },

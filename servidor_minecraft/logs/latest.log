@@ -313,3 +313,24 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [07:08:49] [Server thread/INFO]: Villager Villager['Villager'/279, uuid='feefef6c-f2d5-4c06-859f-39543bba360c', l='ServerLevel[world]', x=219.30, y=79.00, z=18.49, cpos=[13, 1], tl=221951, v=true] died, message: 'Villager was slain by Zombie'
 [07:09:35] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
 [07:09:35] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:10:25] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:10:25] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:16:24] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> nqncyyyy
+[07:16:32] [Async Chat Thread - #5/INFO]: [Not Secure] <.CrossJuli_uwu> q
+[07:16:35] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> vamos a salir a explorar, vienes
+[07:16:38] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> ?
+[07:17:01] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[07:17:01] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
+[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
+[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
+[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
+[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
+[07:17:04] [Async Chat Thread - #5/INFO]: [Not Secure] <.CrossJuli_uwu> no creo
+[07:17:07] [Server thread/INFO]: .CrossJuli_uwu was slain by .flama234
+[07:17:49] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:17:49] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:17:55] [Server thread/INFO]: Villager Villager['Villager'/11531, uuid='4895a45c-f37e-4dc8-a0fe-81c1beff6aa2', l='ServerLevel[world]', x=274.21, y=67.00, z=37.10, cpos=[17, 2], tl=50561, v=true] died, message: 'Villager was slain by Zombie'
+[07:17:57] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu .flama234
+[07:17:57] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to .flama234]
+[07:17:57] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -195.461907,1.0,-205.39826
