@@ -1305,6 +1305,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-19 06:36:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2025-05-19 06:36:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2025-05-19 06:25:15 +0000"
