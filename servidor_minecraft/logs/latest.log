@@ -305,3 +305,11 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 [06:48:15] [Async Chat Thread - #1/INFO]: [Not Secure] <.CrossJuli_uwu> weee,, mira mi mascota
 [06:51:10] [Async Chat Thread - #3/INFO]: [Not Secure] <.CrossJuli_uwu> weeee
 [06:58:44] [Server thread/INFO]: .CrossJuli_uwu was shot by Skeleton
+[07:00:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:00:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:00:49] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
+[07:01:09] [Server thread/INFO]: .flama234 was slain by Zombie
+[07:07:18] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[07:08:49] [Server thread/INFO]: Villager Villager['Villager'/279, uuid='feefef6c-f2d5-4c06-859f-39543bba360c', l='ServerLevel[world]', x=219.30, y=79.00, z=18.49, cpos=[13, 1], tl=221951, v=true] died, message: 'Villager was slain by Zombie'
+[07:09:35] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[07:09:35] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
