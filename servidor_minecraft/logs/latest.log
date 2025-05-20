@@ -1,336 +1,1049 @@
-[05:32:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[05:32:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[05:32:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:32:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Shop.jar'...
-[05:32:51] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/smoothtimber-legacy-1.27.5.jar'...
-[05:32:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Shop.jar' in 604ms.
-[05:32:52] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/smoothtimber-legacy-1.27.5.jar' in 755ms.
-[05:32:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[05:32:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
- - BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), Graves (4.9), Shop (1), SkinsRestorer (15.6.3), SmoothTimber (1.27.5), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[05:32:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:32:57] [ServerMain/INFO]: Loaded 1290 recipes
-[05:32:57] [ServerMain/INFO]: Loaded 1399 advancements
-[05:32:58] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:32:58] [Server thread/INFO]: Loading properties
-[05:32:58] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[05:32:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:32:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:32:58] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:32:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[05:32:59] [Server thread/INFO]: Default game type: SURVIVAL
-[05:32:59] [Server thread/INFO]: Generating keypair
-[05:32:59] [Server thread/INFO]: Starting Minecraft server on *:44077
-[05:33:00] [Server thread/INFO]: Using epoll channel type
-[05:33:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:33:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:33:00] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
-[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
-[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[05:33:02] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[05:33:09] [Server thread/WARN]: Legacy plugin Shop v1 does not specify an api-version.
-[05:33:09] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:33:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[05:33:11] [Server thread/INFO]: [floodgate] Took 1,732ms to boot Floodgate
-[05:33:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[05:33:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[05:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:33:14] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
-[05:33:14] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[05:33:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[05:33:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[05:33:15] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
-[05:33:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
-[05:33:15] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[05:33:16] [Server thread/INFO]: [Shop] Loading server plugin Shop v1
-[05:33:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:33:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
-[05:33:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[05:33:17] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[05:33:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:33:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:33:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:33:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:33:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:33:18] [Server thread/INFO]: Preparing level "world"
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[05:33:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:33:19] [Server thread/INFO]: Time elapsed: 843 ms
-[05:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:33:19] [Server thread/INFO]: Time elapsed: 229 ms
-[05:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:33:20] [Server thread/INFO]: Time elapsed: 126 ms
-[05:33:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:33:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[05:33:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[05:33:20] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
-[05:33:20] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[05:33:20] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[05:33:20] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[05:33:21] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[05:33:21] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
-[05:33:21] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[05:33:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:33:21] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
-[05:33:22] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
-[05:33:22] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[05:33:22] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[05:33:22] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
-java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-	at Graves-4.9.jar/com.ranull.graves.manager.VersionManager.<init>(VersionManager.java:23) ~[Graves-4.9.jar:?]
-	at Graves-4.9.jar/com.ranull.graves.Graves.onEnable(Graves.java:66) ~[Graves-4.9.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:33:22] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[05:33:22] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
-java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataManager.closeConnection()" because "this.dataManager" is null
-	at Graves-4.9.jar/com.ranull.graves.Graves.onDisable(Graves.java:95) ~[Graves-4.9.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:33:22] [Server thread/INFO]: [Shop] Enabling Shop v1*
-[05:33:22] [Server thread/INFO]: [Shop] Plugin Enabled
-[05:33:22] [Server thread/INFO]: [spark] Starting background profiler...
-[05:33:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:33:22] [Server thread/INFO]: [Geyser-Spigot] 
-[05:33:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
-[05:33:22] [Server thread/INFO]: [Geyser-Spigot] 
-[05:33:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:33:31] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
-[05:33:31] [Server thread/INFO]: [Geyser-Spigot] Done (8.958s)! Run /geyser help for help!
-[05:33:31] [Server thread/INFO]: Done preparing level "world" (13.452s)
-[05:33:31] [Server thread/INFO]: Running delayed init tasks
-[05:33:31] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[05:33:31] [Server thread/INFO]: Done (41.903s)! For help, type "help"
-[05:33:31] [Server thread/INFO]: Timings Reset
-[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
-[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:33:56] [Craft Scheduler Thread - 7 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[05:33:56] [Craft Scheduler Thread - 7 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[05:34:44] [Craft Scheduler Thread - 11 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[05:34:44] [Craft Scheduler Thread - 11 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[05:37:10] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
-[05:37:11] [Server thread/INFO]: tsubakitadake joined the game
-[05:37:12] [Server thread/INFO]: tsubakitadake[/127.39.151.167:50007] logged in with entity id 34 at ([world]21.04268552748952, 73.0, -157.72121307514553)
-[05:37:25] [Server thread/INFO]: tsubakitadake issued server command: /sm toogle
-[05:37:32] [Server thread/INFO]: tsubakitadake issued server command: /sm help
-[05:37:47] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
-[05:37:54] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
-[05:40:29] [Craft Scheduler Thread - 33 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[05:40:29] [Craft Scheduler Thread - 33 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[05:40:32] [Craft Scheduler Thread - 34 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
-[05:40:32] [Craft Scheduler Thread - 34 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
-[05:40:49] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
-[05:41:36] [Server thread/INFO]: tsubakitadake issued server command: /grave
-[05:41:36] [Server thread/ERROR]: Command exception: /grave
-org.bukkit.command.CommandException: Cannot execute command 'grave' in plugin Graves v4.9 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:41:42] [Server thread/INFO]: tsubakitadake issued server command: /graves
-[05:41:42] [Server thread/ERROR]: Command exception: /graves
-org.bukkit.command.CommandException: Cannot execute command 'graves' in plugin Graves v4.9 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:41:53] [Server thread/INFO]: tsubakitadake issued server command: /graves:deathchest
-[05:41:53] [Server thread/ERROR]: Command exception: /graves:deathchest
-org.bukkit.command.CommandException: Cannot execute command 'graves:deathchest' in plugin Graves v4.9 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:42:01] [Server thread/INFO]: tsubakitadake issued server command: /graves tsubakitadake
-[05:42:01] [Server thread/ERROR]: Command exception: /graves tsubakitadake
-org.bukkit.command.CommandException: Cannot execute command 'graves' in plugin Graves v4.9 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:44:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
-[05:44:13] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
-[05:44:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
-[05:44:14] [Server thread/INFO]: .flama234 joined the game
-[05:44:14] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 884 at ([world]-14.555185685011976, 75.94896593481052, -168.46347188165228)
-[05:44:39] [Server thread/INFO]: .flama234 was shot by Skeleton
-[05:45:10] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[05:45:10] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[05:46:12] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
-[05:46:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
-[05:46:12] [Server thread/INFO]: .flama234 lost connection: Disconnected
-[05:46:12] [Server thread/INFO]: .flama234 left the game
-[05:46:45] [Server thread/INFO]: Stopping the server
-[05:46:45] [Server thread/INFO]: Stopping server
-[05:46:45] [Server thread/INFO]: [Shop] Disabling Shop v1
-[05:46:45] [Server thread/INFO]: [Shop] Plugin Disabled
-[05:46:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
-[05:46:45] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
-[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[05:46:45] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
-[05:46:45] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
-[05:46:45] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[05:46:45] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[05:46:45] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:46:45] [Server thread/INFO]: Saving players
-[05:46:45] [Server thread/INFO]: tsubakitadake lost connection: Server closed
-[05:46:45] [Server thread/INFO]: tsubakitadake left the game
-[05:46:45] [Server thread/INFO]: Saving worlds
-[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:46:45] [WebSocketConnectReadThread-111/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 226 block chunks, 341 entity chunks, 0 poi chunks in world 'world' in 0.43s
-[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
-[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:48:21] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[05:48:21] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[05:48:21] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:48:21] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/AxGraves-1.20.1.jar'...
+[05:48:23] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/AxGraves-1.20.1.jar' in 2133ms.
+[05:48:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[05:48:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - AxGraves (1.20.1), BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), Shop (1), SkinsRestorer (15.6.3), SmoothTimber (1.27.5), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[05:48:27] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:48:29] [ServerMain/INFO]: Loaded 1290 recipes
+[05:48:29] [ServerMain/INFO]: Loaded 1399 advancements
+[05:48:30] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:48:30] [Server thread/INFO]: Loading properties
+[05:48:30] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[05:48:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:48:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:48:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:48:31] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:48:31] [Server thread/INFO]: Default game type: SURVIVAL
+[05:48:31] [Server thread/INFO]: Generating keypair
+[05:48:32] [Server thread/INFO]: Starting Minecraft server on *:44077
+[05:48:32] [Server thread/INFO]: Using epoll channel type
+[05:48:32] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:48:32] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
+[05:48:33] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[05:48:37] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:48:45] [Server thread/WARN]: Legacy plugin Shop v1 does not specify an api-version.
+[05:48:45] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:48:46] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:48:47] [Server thread/INFO]: [floodgate] Took 1,752ms to boot Floodgate
+[05:48:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[05:48:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[05:48:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:48:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:48:49] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
+[05:48:49] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[05:48:51] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:48:51] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:48:51] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[05:48:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[05:48:51] [Server thread/INFO]: [AxGraves] Loading server plugin AxGraves v1.20.1
+[05:48:51] [Server thread/INFO]: [Shop] Loading server plugin Shop v1
+[05:48:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:48:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[05:48:52] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[05:48:53] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:48:53] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:48:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:48:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:48:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:48:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:48:53] [Server thread/INFO]: Preparing level "world"
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:48:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:48:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:48:55] [Server thread/INFO]: Time elapsed: 797 ms
+[05:48:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:48:55] [Server thread/INFO]: Time elapsed: 272 ms
+[05:48:55] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:48:55] [Server thread/INFO]: Time elapsed: 185 ms
+[05:48:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:48:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[05:48:56] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[05:48:56] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
+[05:48:56] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[05:48:56] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[05:48:56] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[05:48:56] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[05:48:56] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
+[05:48:56] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[05:48:57] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:48:57] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[05:48:57] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
+[05:48:57] [Server thread/INFO]: [AxGraves] Enabling AxGraves v1.20.1
+[05:48:58] [Server thread/INFO]: [Shop] Enabling Shop v1*
+[05:48:58] [Server thread/INFO]: [Shop] Plugin Enabled
+[05:48:59] [Server thread/INFO]: [spark] Starting background profiler...
+[05:48:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:48:59] [Server thread/INFO]: [Geyser-Spigot] 
+[05:48:59] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
+[05:48:59] [Server thread/INFO]: [Geyser-Spigot] 
+[05:48:59] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:49:07] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
+[05:49:08] [Server thread/INFO]: [Geyser-Spigot] Done (8.647s)! Run /geyser help for help!
+[05:49:08] [Server thread/INFO]: Done preparing level "world" (14.354s)
+[05:49:08] [Server thread/INFO]: Running delayed init tasks
+[05:49:08] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:49:08] [Server thread/INFO]: Done (47.887s)! For help, type "help"
+[05:49:08] [Server thread/INFO]: Timings Reset
+[05:49:08] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:49:08] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
+[05:49:08] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:50:16] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
+[05:50:16] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[05:50:17] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[05:50:17] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
+[05:50:17] [Server thread/INFO]: .flama234 joined the game
+[05:50:17] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 33 at ([world]-16.699226, 75.0, -170.58713)
+[05:50:18] [Server thread/INFO]: tsubakitadake joined the game
+[05:50:18] [Server thread/INFO]: tsubakitadake[/127.39.151.167:39299] logged in with entity id 34 at ([world]-14.295543884249163, 76.0, -175.35031919165175)
+[05:50:20] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[05:50:20] [localSession-7-3/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[05:50:20] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[05:50:20] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[05:50:20] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 180 at ([world]25.84834, 72.5625, -161.35643)
+[05:50:31] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:50:31] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:51:19] [Server thread/INFO]: tsubakitadake issued server command: /graves reload
+[05:51:58] [Server thread/INFO]: tsubakitadake issued server command: /graves reload
+[05:53:13] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[05:53:13] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[05:54:49] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[05:54:49] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:54:49] [Server thread/WARN]: .flama234 moved too quickly! 131.2907786068161,-1.4375,68.49174540885585
+[05:57:16] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[05:58:23] [Server thread/INFO]: tsubakitadake issued server command: /weather clear
+[05:58:23] [Server thread/INFO]: [tsubakitadake: Set the weather to clear]
+[05:58:27] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[05:58:27] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[05:58:47] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
+[05:59:22] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[05:59:22] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[05:59:49] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[05:59:49] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:01:09] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:01:09] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:01:09] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -825.508233035219,-60.0,-576.2335067491134
+[06:03:00] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:03:00] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:03:06] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:03:06] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:05:47] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:05:47] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:07:44] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:07:44] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:07:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -642.5309766044022,63.683102970710166,177.46489581418336
+[06:08:38] [Server thread/INFO]: tsubakitadake issued server command: /tp 0 ~ 0
+[06:08:38] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to 0.500000, 56.076368, 0.500000]
+[06:08:45] [Server thread/INFO]: tsubakitadake issued server command: /tp 0 70 0
+[06:08:45] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to 0.500000, 70.000000, 0.500000]
+[06:08:55] [Server thread/INFO]: tsubakitadake issued server command: /tp 0 90 0
+[06:08:55] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to 0.500000, 90.000000, 0.500000]
+[06:09:45] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:09:45] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:10:11] [Server thread/INFO]: tsubakitadake issued server command: /tp 0 100 0
+[06:10:11] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to 0.500000, 100.000000, 0.500000]
+[06:10:33] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:10:33] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:11:15] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:11:15] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:13:05] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:13:05] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:13:05] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -0.15452802502841223,11.600000000000001,4.6579497748486745
+[06:13:05] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -0.1545099999998456,11.600000000000001,5.105919999999998
+[06:13:06] [Server thread/INFO]: .CrossJuli_uwu drowned
+[06:13:16] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:13:16] [Server thread/INFO]: Attempt to teleport removed player .CrossJuli_uwu restricted
+[06:13:16] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:13:27] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:13:27] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:13:27] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1784.8554902723856,-60.0,-365.40075946760453
+[06:14:34] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:14:34] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:14:44] [Server thread/INFO]: .CrossJuli_uwu drowned
+[06:14:52] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:14:52] [Server thread/INFO]: Attempt to teleport removed player .CrossJuli_uwu restricted
+[06:14:52] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:14:56] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:14:56] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:14:56] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1791.4269092830293,-61.0,-363.49576160269726
+[06:16:24] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:16:24] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:16:48] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:16:48] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:18:16] [Server thread/INFO]: .CrossJuli_uwu discovered the floor was lava
+[06:18:44] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:18:44] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:44] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1873.5661028596983,-68.0,-286.87090905616196
+[06:18:56] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:18:56] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:19:00] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client timed out
+[06:19:00] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[06:19:00] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[06:19:00] [Server thread/INFO]: .CrossJuli_uwu left the game
+[06:19:27] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[06:19:27] [localSession-7-4/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[06:19:28] [User Authenticator #1/INFO]: UUID of player CrossJuli_uwu is 542f3f06-8f69-3d0d-9eee-876d0e7cf1f7
+[06:19:28] [Server thread/INFO]: CrossJuli_uwu joined the game
+[06:19:28] [Server thread/INFO]: CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 10568 at ([world]-20.697891, 95.0, -3.2823238)
+[06:19:47] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake}
+[06:20:03] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[06:20:03] [Server thread/INFO]: CrossJuli_uwu lost connection: Disconnected
+[06:20:03] [Server thread/INFO]: CrossJuli_uwu left the game
+[06:20:21] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[06:20:21] [localSession-7-1/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[06:20:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[06:20:21] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[06:20:21] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 10815 at ([world]-1797.2976910587192, 56.0, -148.48750001192093)
+[06:20:39] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:20:39] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:21:46] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:21:46] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:21:46] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 32.7385829683069,9.0,19.3504301470617
+[06:21:46] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 32.7385829683069,9.0,19.3504301470617
+[06:21:46] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 32.7385829683069,9.0,19.3504301470617
+[06:21:55] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:21:55] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:23:38] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:23:38] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:38] [Server thread/WARN]: .flama234 moved too quickly! 18.58990014270512,6.0,64.81400324114932
+[06:23:59] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.27687057444212826
+[06:23:59] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.34724313060698364
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.2919473085262325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.4546670350887325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.6149453554012325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.7713174257137325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.9229287538387325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.0690469179012325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.2086953554012325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.2660684022762325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.2660684022762325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.2660684022762325
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.2160684015311745
+[06:24:11] [Server thread/WARN]: Oak Boat (vehicle of .CrossJuli_uwu) moved wrongly! 1.1170683991022088
+[06:25:53] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:25:53] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:26:59] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:26:59] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:26:59] [Server thread/WARN]: .flama234 moved too quickly! -12.612979098238156,10.246799999999993,-8.79662401192093
+[06:28:24] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:28:24] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:28:41] [Server thread/INFO]: Villager Villager['Villager'/14358, uuid='fabeaf3f-4fb3-4516-b120-6ab876e62eff', l='ServerLevel[world]', x=-2576.72, y=70.00, z=1.37, cpos=[-162, 0], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[06:28:47] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:28:47] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:28:47] [Server thread/WARN]: .flama234 moved too quickly! -5.515557726957923,10.0,19.371911814417956
+[06:30:21] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:30:21] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:30:21] [Server thread/WARN]: .flama234 moved too quickly! 43.14015282060518,-2.0,33.51419874942299
+[06:31:13] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:31:13] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:31:13] [Server thread/WARN]: .flama234 moved too quickly! 9.35799995281559,3.2032800000000066,16.71840742095725
+[06:32:53] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu tsubakitadake
+[06:32:53] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to tsubakitadake]
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:32:53] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -1253.697609219762,9.412511444091798,871.3177520484822
+[06:33:02] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[06:33:54] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[06:33:54] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[06:33:54] [Server thread/WARN]: .flama234 moved too quickly! -5.2925243507265805,-3.024410000000003,17.075510772129782
+[06:34:05] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client timed out
+[06:34:05] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[06:34:05] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[06:34:05] [Server thread/INFO]: .flama234 left the game
+[06:34:35] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
+[06:34:35] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[06:34:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[06:34:36] [Server thread/INFO]: .flama234 joined the game
+[06:34:36] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 18021 at ([world]-2589.3575243507266, 66.0, 55.438295772129784)
+[06:36:17] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:36:17] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:38:05] [Server thread/INFO]: tsubakitadake issued server command: /shop
+[06:38:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
+warp shop tsubakitadake<--[HERE]
+[06:38:10] [Server thread/INFO]: tsubakitadake issued server command: /shop:shop
+[06:38:10] [Server thread/INFO]: Unknown or incomplete command, see below for error
+warp shop tsubakitadake<--[HERE]
+[06:38:15] [Server thread/INFO]: tsubakitadake issued server command: /shop tsubakitadake
+[06:38:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+warp shop tsubakitadake<--[HERE]
+[06:40:53] [Server thread/INFO]: .flama234 has made the advancement [Best Friends Forever]
+[06:44:07] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -2.199200000000019,-3.024410000000003,-9.563199999999938
+[06:45:43] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 8.86019999999985,-2.001339999999999,-4.772950000000037
+[06:46:21] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[06:48:12] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:48:12] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:52:30] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:52:30] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[06:53:38] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[06:54:15] [Paper Common Worker #0/ERROR]: Failed to fetch mob spawner entity at (-546, -4, -1806)
+[06:54:44] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[06:54:44] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[06:56:19] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[06:56:20] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[06:56:41] [Async Chat Thread - #0/INFO]: [Not Secure] <tsubakitadake> perame se me descargaron los audifonos
+[06:59:10] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[06:59:10] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:00:47] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:00:47] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:02:47] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[07:02:47] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:02:54] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[07:03:07] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[07:03:07] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[07:03:07] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[07:03:07] [Server thread/INFO]: .flama234 left the game
+[07:03:44] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username flama234
+[07:03:44] [localSession-7-3/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[07:03:44] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[07:03:44] [Server thread/INFO]: .flama234 joined the game
+[07:03:44] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 40317 at ([world]-2529.837, 103.0, -1346.2852)
+[07:05:05] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Best Friends Forever]
+[07:06:21] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:06:21] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:10:30] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[07:10:30] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[07:10:30] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[07:10:30] [Server thread/INFO]: .CrossJuli_uwu left the game
+[07:10:49] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[07:10:49] [localSession-7-4/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[07:10:50] [User Authenticator #2/INFO]: UUID of player CrossJuli_uwu is 542f3f06-8f69-3d0d-9eee-876d0e7cf1f7
+[07:10:50] [Server thread/INFO]: CrossJuli_uwu joined the game
+[07:10:50] [Server thread/INFO]: CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 45582 at ([world]-23.034515, 92.0, -17.396006)
+[07:11:07] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[07:11:07] [Server thread/INFO]: CrossJuli_uwu lost connection: Disconnected
+[07:11:07] [Server thread/INFO]: CrossJuli_uwu left the game
+[07:11:31] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[07:11:31] [localSession-7-1/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[07:11:32] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[07:11:32] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[07:11:32] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 46049 at ([world]89.113525, 61.36857805772121, -2388.8508)
+[07:12:04] [Async Chat Thread - #1/INFO]: [Not Secure] <tsubakitadake> 0 100 0
+[07:12:33] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:12:33] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:14:07] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.3442211906231023
+[07:14:07] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.3652995553788969
+[07:14:07] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.5288737741288969
+[07:14:07] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.565041776304497
+[07:17:25] [Server thread/INFO]: tsubakitadake issued server command: /tp
+[07:17:30] [Server thread/INFO]: tsubakitadake issued server command: /tps .flama234
+[07:17:36] [Server thread/INFO]: tsubakitadake issued server command: /tps .flama234
+[07:17:44] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[07:17:44] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:18:11] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[07:18:11] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:19:19] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:19:19] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:21:34] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.26804517659729754
+[07:21:34] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.27171376369324207
+[07:21:54] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.2505833890454596
+[07:21:54] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.49829862610610576
+[07:21:54] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.6680155177376434
+[07:21:54] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.7396470992734692
+[07:21:54] [Server thread/WARN]: Cherry Boat (vehicle of .CrossJuli_uwu) moved wrongly! 0.9355852096250317
+[07:28:02] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[07:28:02] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[07:28:02] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[07:28:02] [Server thread/INFO]: .CrossJuli_uwu left the game
+[07:28:28] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[07:28:28] [localSession-7-2/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[07:28:29] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[07:28:29] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[07:28:29] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 60014 at ([world]147.3694, 64.0, -362.46155)
+[07:30:04] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:30:04] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:30:53] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[07:30:53] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[07:30:53] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[07:30:53] [Server thread/INFO]: .flama234 left the game
+[07:31:36] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username flama234
+[07:31:36] [localSession-7-3/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[07:31:36] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[07:31:36] [Server thread/INFO]: .flama234 joined the game
+[07:31:36] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 61674 at ([world]-38.71745613339261, 69.0, 118.69623206833809)
+[07:32:59] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
+[07:32:59] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
+[07:33:30] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[07:33:30] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[07:34:07] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
+[07:34:20] [Server thread/INFO]: .flama234 has made the advancement [The Parrots and the Bats]
+[07:35:48] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[07:35:48] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client timed out
+[07:35:48] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[07:35:48] [Server thread/INFO]: .flama234 left the game
+[07:36:22] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username flama234
+[07:36:22] [localSession-7-4/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[07:36:22] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[07:36:22] [Server thread/INFO]: .flama234 joined the game
+[07:36:22] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 62936 at ([world]23.30129, 73.0, -164.70389)
+[07:37:43] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:37:43] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:44:07] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[07:44:07] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[07:46:42] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
+[07:46:42] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
+[07:46:42] [Server thread/WARN]: .flama234 moved too quickly! -193.53691369768745,-49.42,-304.40612401635667
+[07:51:26] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[07:51:26] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[07:51:26] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[07:51:26] [Server thread/INFO]: .flama234 left the game
+[07:52:33] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
+[07:52:33] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
+[07:52:33] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
+[07:52:33] [Server thread/INFO]: .CrossJuli_uwu left the game
+[07:52:56] [Server thread/INFO]: tsubakitadake lost connection: Disconnected
+[07:52:56] [Server thread/INFO]: tsubakitadake left the game
+[07:54:21] [Server thread/INFO]: Stopping the server
+[07:54:21] [Server thread/INFO]: Stopping server
+[07:54:21] [Server thread/INFO]: [Shop] Disabling Shop v1
+[07:54:21] [Server thread/INFO]: [Shop] Plugin Disabled
+[07:54:21] [Server thread/INFO]: [AxGraves] Disabling AxGraves v1.20.1
+[07:54:21] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
+[07:54:21] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[07:54:21] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[07:54:21] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[07:54:21] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[07:54:21] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
+[07:54:21] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
+[07:54:21] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[07:54:21] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[07:54:21] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[07:54:21] [Server thread/INFO]: Saving players
+[07:54:21] [Server thread/INFO]: Saving worlds
+[07:54:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:54:22] [WebSocketConnectReadThread-121/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 31 block chunks, 247 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[07:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[07:54:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:54:22] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[07:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:54:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
