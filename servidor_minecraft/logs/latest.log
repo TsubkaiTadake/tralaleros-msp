@@ -1,110 +1,90 @@
-[05:08:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[05:08:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[05:08:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:08:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/GraveLootZ-1.0.0.jar'...
-[05:08:49] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/BackpackPlus-1.5.6-beta-all.jar'...
-[05:08:49] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/GraveLootZ-1.0.0.jar' in 695ms.
-[05:08:50] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BackpackPlus-1.5.6-beta-all.jar' in 817ms.
-[05:08:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[05:08:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[05:03:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[05:03:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[05:03:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:03:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[05:03:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), GraveLootZ (1.0.0), Graves (4.9), SkinsRestorer (15.6.3), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[05:08:54] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:08:55] [ServerMain/INFO]: Loaded 1290 recipes
-[05:08:55] [ServerMain/INFO]: Loaded 1399 advancements
-[05:08:55] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:08:55] [Server thread/INFO]: Loading properties
-[05:08:56] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[05:08:56] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:08:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:08:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:08:57] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[05:08:57] [Server thread/INFO]: Default game type: SURVIVAL
-[05:08:57] [Server thread/INFO]: Generating keypair
-[05:08:57] [Server thread/INFO]: Starting Minecraft server on *:44077
-[05:08:57] [Server thread/INFO]: Using epoll channel type
-[05:08:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:08:57] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/2.0.0-alpha1/slf4j-parent-2.0.0-alpha1.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.36/slf4j-parent-1.7.36.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.pom
-[05:09:00] [Server thread/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[05:09:00] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[05:09:00] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
-[05:09:00] [BasicRepositoryConnector-repo.maven.apache.org-0-3/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[05:09:01] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: [SpigotLibraryLoader] Downloading https://repo.maven.apache.org/maven2/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[05:09:01] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[05:09:01] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[05:09:01] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[05:09:01] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
-[05:09:01] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[05:09:01] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:09:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[05:09:03] [Server thread/INFO]: [floodgate] Took 1,837ms to boot Floodgate
-[05:09:03] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[05:09:03] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[05:09:04] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:09:05] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:09:06] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
-[05:09:06] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[05:09:08] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[05:09:08] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[05:09:08] [Server thread/INFO]: [GraveLootZ] Loading server plugin GraveLootZ v1.0.0
-[05:09:08] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
-[05:09:08] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[05:09:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:09:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
-[05:09:10] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[05:09:10] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[05:09:10] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:09:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:09:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:09:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:09:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:09:10] [Server thread/INFO]: Preparing level "world"
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:09:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[05:09:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:09:12] [Server thread/INFO]: Time elapsed: 891 ms
-[05:09:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:09:12] [Server thread/INFO]: Time elapsed: 269 ms
-[05:09:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:09:12] [Server thread/INFO]: Time elapsed: 131 ms
-[05:09:12] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:09:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[05:09:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[05:09:13] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Pack] Resource pack copied to pack folder.
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Pack] New version found, updating readme...
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Pack] Readme updated.
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[05:09:13] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[05:09:13] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
-[05:09:13] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[05:09:14] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:09:15] [Server thread/INFO]: [GraveLootZ] Enabling GraveLootZ v1.0.0
-[05:09:15] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been enabled!
-[05:09:15] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[05:09:15] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[05:09:15] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
+[05:03:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:03:22] [ServerMain/INFO]: Loaded 1290 recipes
+[05:03:23] [ServerMain/INFO]: Loaded 1399 advancements
+[05:03:23] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:03:23] [Server thread/INFO]: Loading properties
+[05:03:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[05:03:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:03:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:03:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:03:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:03:26] [Server thread/INFO]: Default game type: SURVIVAL
+[05:03:26] [Server thread/INFO]: Generating keypair
+[05:03:26] [Server thread/INFO]: Starting Minecraft server on *:44077
+[05:03:26] [Server thread/INFO]: Using epoll channel type
+[05:03:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:03:26] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:03:28] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
+[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
+[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[05:03:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:03:32] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:03:32] [Server thread/INFO]: [floodgate] Took 2,651ms to boot Floodgate
+[05:03:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[05:03:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[05:03:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:03:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:03:36] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
+[05:03:36] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[05:03:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:03:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:03:38] [Server thread/INFO]: [GraveLootZ] Loading server plugin GraveLootZ v1.0.0
+[05:03:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[05:03:38] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[05:03:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:03:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[05:03:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[05:03:42] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:03:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:03:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:03:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:03:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:03:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:03:42] [Server thread/INFO]: Preparing level "world"
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:03:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:03:46] [Server thread/INFO]: Time elapsed: 2418 ms
+[05:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:03:46] [Server thread/INFO]: Time elapsed: 639 ms
+[05:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:03:47] [Server thread/INFO]: Time elapsed: 243 ms
+[05:03:47] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:03:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[05:03:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[05:03:48] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
+[05:03:48] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[05:03:48] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[05:03:48] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[05:03:48] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[05:03:48] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
+[05:03:48] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[05:03:49] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:03:50] [Server thread/INFO]: [GraveLootZ] Enabling GraveLootZ v1.0.0
+[05:03:50] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been enabled!
+[05:03:50] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[05:03:50] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[05:03:50] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
 java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at Graves-4.9.jar/com.ranull.graves.manager.VersionManager.<init>(VersionManager.java:23) ~[Graves-4.9.jar:?]
 	at Graves-4.9.jar/com.ranull.graves.Graves.onEnable(Graves.java:66) ~[Graves-4.9.jar:?]
@@ -120,8 +100,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:09:15] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[05:09:15] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
+[05:03:50] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[05:03:50] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
 java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataManager.closeConnection()" because "this.dataManager" is null
 	at Graves-4.9.jar/com.ranull.graves.Graves.onDisable(Graves.java:95) ~[Graves-4.9.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
@@ -139,245 +119,39 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:09:15] [Server thread/INFO]: [spark] Starting background profiler...
-[05:09:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:09:15] [Server thread/INFO]: [Geyser-Spigot] 
-[05:09:15] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
-[05:09:15] [Server thread/INFO]: [Geyser-Spigot] 
-[05:09:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:09:24] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
-[05:09:24] [Server thread/INFO]: [Geyser-Spigot] Done (8.688s)! Run /geyser help for help!
-[05:09:24] [Server thread/INFO]: Done preparing level "world" (13.720s)
-[05:09:24] [Server thread/INFO]: Running delayed init tasks
-[05:09:24] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[05:09:24] [Server thread/INFO]: Done (37.319s)! For help, type "help"
-[05:09:24] [Server thread/INFO]: Timings Reset
-[05:09:24] [Craft Scheduler Thread - 0 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:09:24] [Craft Scheduler Thread - 0 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
-[05:09:24] [Craft Scheduler Thread - 0 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:09:31] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
-[05:09:33] [Server thread/INFO]: tsubakitadake joined the game
-[05:09:33] [Server thread/INFO]: tsubakitadake[/127.39.151.167:41187] logged in with entity id 36 at ([world]26.100230734689916, 72.5625, -161.76413427268025)
-[05:15:05] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
-[05:15:05] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
-[05:15:06] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
-[05:15:06] [Server thread/INFO]: .flama234 joined the game
-[05:15:06] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 1033 at ([world]40.328514, 79.0, -154.0005)
-[05:15:39] [Server thread/INFO]: Villager Villager['Weaponsmith'/251, uuid='84524416-8976-4fbf-8508-48e4c50c8208', l='ServerLevel[world]', x=216.30, y=93.16, z=-13.63, cpos=[13, -1], tl=67080, v=true] died, message: 'Weaponsmith froze to death'
-[05:17:14] [Server thread/INFO]: .flama234 was slain by Zombie
-[05:17:42] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
-[05:17:42] [localSession-7-3/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
-[05:17:43] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
-[05:17:43] [Server thread/INFO]: .CrossJuli_uwu joined the game
-[05:17:43] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 1300 at ([world]87.80591, 125.0, 137.30001)
-[05:22:26] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:26:58] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:26:59] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [A Seedy Place]
-[05:27:08] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:27:42] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
-[05:27:42] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
-[05:27:42] [Server thread/INFO]: .flama234 lost connection: Disconnected
-[05:27:42] [Server thread/INFO]: .flama234 left the game
-[05:28:21] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username flama234
-[05:28:21] [localSession-7-4/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
-[05:28:21] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
-[05:28:21] [Server thread/INFO]: .flama234 joined the game
-[05:28:21] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 3742 at ([world]23.182858, 72.0, -159.49896)
-[05:32:43] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[05:32:43] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[05:34:01] [Server thread/INFO]: tsubakitadake has made the advancement [Diamonds!]
-[05:35:16] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! 9.3161138,3.747799999999998,2.014949999999999
-[05:36:36] [Server thread/INFO]: tsubakitadake has made the advancement [Minecraft: Trial(s) Edition]
-[05:39:39] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
-[05:39:39] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
-[05:39:40] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
-[05:39:40] [Server thread/INFO]: .CrossJuli_uwu left the game
-[05:42:46] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
-[05:42:46] [localSession-7-1/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
-[05:42:47] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
-[05:42:47] [Server thread/INFO]: .CrossJuli_uwu joined the game
-[05:42:47] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 8002 at ([world]27.5, 72.0, -159.5)
-[05:46:26] [Server thread/INFO]: .flama234 was slain by Zombie
-[05:46:28] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
-[05:48:42] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[05:48:42] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[05:53:35] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu
-[05:53:35] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .CrossJuli_uwu]
-[05:55:32] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[05:55:32] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[05:56:32] [Server thread/INFO]: .flama234 fell from a high place
-[05:56:38] [Server thread/INFO]: tsubakitadake has made the advancement [Cover Me with Diamonds]
-[05:58:28] [Server thread/INFO]: .flama234 has made the advancement [Wax Off]
-[05:58:46] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Tactical Fishing]
-[05:59:46] [Server thread/INFO]: .flama234 has made the advancement [Cover Me with Diamonds]
-[06:00:04] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:00:04] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:05:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:05:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:08:22] [Server thread/INFO]: tsubakitadake issued server command: /weather clear
-[06:08:22] [Server thread/INFO]: [tsubakitadake: Set the weather to clear]
-[06:10:15] [Server thread/INFO]: .flama234 was doomed to fall by Skeleton
-[06:12:28] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:12:28] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:16:03] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[06:16:03] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[06:22:06] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:22:06] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:24:23] [Server thread/INFO]: .flama234 has made the advancement [Lighten Up]
-[06:32:30] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[06:32:30] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[06:33:20] [Async Chat Thread - #0/INFO]: [Not Secure] <.flama234> subete a la moto mami
-[06:33:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:33:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:37:36] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 .CrossJuli_uwu
-[06:37:36] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to .CrossJuli_uwu]
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:37:36] [Server thread/WARN]: .flama234 moved too quickly! 48.616852,41.0,304.73284
-[06:38:55] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
-[06:38:55] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:38:55] [Server thread/WARN]: .flama234 moved too quickly! -128.59133473550798,-41.2522,-300.7639561029077
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.783522999999995,1.0,-6.9568299999999965
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:39:33] [Server thread/WARN]: .flama234 moved too quickly! 16.381676999999996,1.0,-6.9407799999999895
-[06:40:32] [Server thread/INFO]: .CrossJuli_uwu has made the advancement [Bee Our Guest]
-[06:40:43] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
-[06:40:48] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[06:40:48] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[06:40:52] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:40:52] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:42:33] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu
-[06:42:33] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .CrossJuli_uwu]
-[06:43:14] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[06:43:14] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[06:47:37] [Server thread/INFO]: .flama234 hit the ground too hard
-[06:47:52] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[06:47:52] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[06:48:08] [Server thread/INFO]: .flama234 was slain by Zombie
-[06:48:15] [Async Chat Thread - #1/INFO]: [Not Secure] <.CrossJuli_uwu> weee,, mira mi mascota
-[06:51:10] [Async Chat Thread - #3/INFO]: [Not Secure] <.CrossJuli_uwu> weeee
-[06:58:44] [Server thread/INFO]: .CrossJuli_uwu was shot by Skeleton
-[07:00:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[07:00:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[07:00:49] [Server thread/INFO]: .CrossJuli_uwu was slain by Zombie
-[07:01:09] [Server thread/INFO]: .flama234 was slain by Zombie
-[07:07:18] [Server thread/WARN]: .CrossJuli_uwu moved wrongly!
-[07:08:49] [Server thread/INFO]: Villager Villager['Villager'/279, uuid='feefef6c-f2d5-4c06-859f-39543bba360c', l='ServerLevel[world]', x=219.30, y=79.00, z=18.49, cpos=[13, 1], tl=221951, v=true] died, message: 'Villager was slain by Zombie'
-[07:09:35] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234
-[07:09:35] [Server thread/INFO]: [tsubakitadake: Teleported tsubakitadake to .flama234]
-[07:10:25] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[07:10:25] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[07:16:24] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> nqncyyyy
-[07:16:32] [Async Chat Thread - #5/INFO]: [Not Secure] <.CrossJuli_uwu> q
-[07:16:35] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> vamos a salir a explorar, vienes
-[07:16:38] [Async Chat Thread - #5/INFO]: [Not Secure] <.flama234> ?
-[07:17:01] [Server thread/INFO]: tsubakitadake issued server command: /tp .flama234 tsubakitadake
-[07:17:01] [Server thread/INFO]: [tsubakitadake: Teleported .flama234 to tsubakitadake]
-[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
-[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
-[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
-[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
-[07:17:01] [Server thread/WARN]: .flama234 moved too quickly! -42.88185015497571,-52.5625,-288.67680394677427
-[07:17:04] [Async Chat Thread - #5/INFO]: [Not Secure] <.CrossJuli_uwu> no creo
-[07:17:07] [Server thread/INFO]: .CrossJuli_uwu was slain by .flama234
-[07:17:49] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[07:17:49] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[07:17:55] [Server thread/INFO]: Villager Villager['Villager'/11531, uuid='4895a45c-f37e-4dc8-a0fe-81c1beff6aa2', l='ServerLevel[world]', x=274.21, y=67.00, z=37.10, cpos=[17, 2], tl=50561, v=true] died, message: 'Villager was slain by Zombie'
-[07:17:57] [Server thread/INFO]: tsubakitadake issued server command: /tp .CrossJuli_uwu .flama234
-[07:17:57] [Server thread/INFO]: [tsubakitadake: Teleported .CrossJuli_uwu to .flama234]
-[07:17:57] [Server thread/WARN]: .CrossJuli_uwu moved too quickly! -195.461907,1.0,-205.39826
-[07:22:24] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[07:22:41] [Server thread/INFO]: .flama234 was doomed to fall by tsubakitadake
-[07:23:35] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
-[07:23:35] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
-[07:23:35] [Server thread/INFO]: .flama234 lost connection: Disconnected
-[07:23:35] [Server thread/INFO]: .flama234 left the game
-[07:27:02] [Geyser Spigot connection thread-6-2/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
-[07:27:02] [epollEventLoopGroup-4-4/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client timed out
-[07:27:02] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
-[07:27:02] [Server thread/INFO]: .CrossJuli_uwu left the game
-[07:27:12] [Server thread/INFO]: tsubakitadake lost connection: Disconnected
-[07:27:12] [Server thread/INFO]: tsubakitadake left the game
-[07:27:40] [Server thread/INFO]: Stopping the server
-[07:27:40] [Server thread/INFO]: Stopping server
-[07:27:40] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
-[07:27:40] [Server thread/INFO]: [GraveLootZ] Disabling GraveLootZ v1.0.0
-[07:27:40] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been disabled!
-[07:27:40] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[07:27:40] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[07:27:40] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[07:27:40] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
-[07:27:40] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
-[07:27:40] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[07:27:40] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:27:40] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[07:27:40] [Server thread/INFO]: Saving players
-[07:27:40] [Server thread/INFO]: Saving worlds
-[07:27:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:27:40] [WebSocketConnectReadThread-108/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saved 34 block chunks, 224 entity chunks, 0 poi chunks in world 'world' in 0.09s
-[07:27:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[07:27:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:27:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[07:27:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:27:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:27:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:27:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:03:50] [Server thread/INFO]: [spark] Starting background profiler...
+[05:03:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:03:51] [Server thread/INFO]: [Geyser-Spigot] 
+[05:03:51] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
+[05:03:51] [Server thread/INFO]: [Geyser-Spigot] 
+[05:03:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:04:03] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
+[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Done (11.881s)! Run /geyser help for help!
+[05:04:03] [Server thread/INFO]: Done preparing level "world" (20.738s)
+[05:04:03] [Server thread/INFO]: Running delayed init tasks
+[05:04:03] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:04:03] [Server thread/INFO]: Done (54.729s)! For help, type "help"
+[05:04:03] [Server thread/INFO]: Timings Reset
+[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
+[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:04:23] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
+[05:04:24] [Server thread/INFO]: tsubakitadake joined the game
+[05:04:25] [Server thread/INFO]: tsubakitadake[/127.39.151.167:51921] logged in with entity id 36 at ([world]44.25308072273609, 79.0, -161.3126868260073)
+[05:05:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
+[05:05:09] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[05:05:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[05:05:10] [Server thread/INFO]: .flama234 joined the game
+[05:05:10] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 267 at ([world]21.216259, 72.0, -160.5701)
+[05:05:28] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:06:10] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
+[05:06:10] [localSession-7-3/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
+[05:06:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
+[05:06:11] [Server thread/INFO]: .CrossJuli_uwu joined the game
+[05:06:11] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 358 at ([world]78.27736, 128.0, 145.04823)
+[05:06:12] [Server thread/INFO]: .flama234 was doomed to fall by tsubakitadake
+[05:06:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[05:06:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[05:08:58] [Server thread/INFO]: .flama234 was slain by tsubakitadake
+[05:12:15] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[05:12:15] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
