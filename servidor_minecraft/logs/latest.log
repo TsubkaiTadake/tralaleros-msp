@@ -1,90 +1,97 @@
-[05:03:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[05:03:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[05:03:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[05:03:14] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[05:03:14] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), GraveLootZ (1.0.0), Graves (4.9), SkinsRestorer (15.6.3), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[05:03:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:03:22] [ServerMain/INFO]: Loaded 1290 recipes
-[05:03:23] [ServerMain/INFO]: Loaded 1399 advancements
-[05:03:23] [Server thread/INFO]: Starting minecraft server version 1.21
-[05:03:23] [Server thread/INFO]: Loading properties
-[05:03:23] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[05:03:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[05:03:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:03:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:03:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[05:03:26] [Server thread/INFO]: Default game type: SURVIVAL
-[05:03:26] [Server thread/INFO]: Generating keypair
-[05:03:26] [Server thread/INFO]: Starting Minecraft server on *:44077
-[05:03:26] [Server thread/INFO]: Using epoll channel type
-[05:03:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:03:26] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:03:28] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
-[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
-[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
-[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
-[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
-[05:03:29] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
-[05:03:29] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:03:32] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[05:03:32] [Server thread/INFO]: [floodgate] Took 2,651ms to boot Floodgate
-[05:03:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
-[05:03:32] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
-[05:03:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:03:34] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:03:36] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
-[05:03:36] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
-[05:03:38] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[05:03:38] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[05:03:38] [Server thread/INFO]: [GraveLootZ] Loading server plugin GraveLootZ v1.0.0
-[05:03:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
-[05:03:38] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
-[05:03:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:03:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
-[05:03:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
-[05:03:42] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[05:03:42] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:03:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:03:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:03:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:03:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:03:42] [Server thread/INFO]: Preparing level "world"
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[05:03:43] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[05:03:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:03:46] [Server thread/INFO]: Time elapsed: 2418 ms
-[05:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:03:46] [Server thread/INFO]: Time elapsed: 639 ms
-[05:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:03:47] [Server thread/INFO]: Time elapsed: 243 ms
-[05:03:47] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:03:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
-[05:03:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[05:03:48] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
-[05:03:48] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
-[05:03:48] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
-[05:03:48] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
-[05:03:48] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
-[05:03:48] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
-[05:03:48] [Server thread/INFO]: [BackpackPlus] Language used: eng
-[05:03:49] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:03:50] [Server thread/INFO]: [GraveLootZ] Enabling GraveLootZ v1.0.0
-[05:03:50] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been enabled!
-[05:03:50] [Server thread/INFO]: [Graves] Enabling Graves v4.9
-[05:03:50] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
-[05:03:50] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
+[05:32:50] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[05:32:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[05:32:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:32:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Shop.jar'...
+[05:32:51] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/smoothtimber-legacy-1.27.5.jar'...
+[05:32:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Shop.jar' in 604ms.
+[05:32:52] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/smoothtimber-legacy-1.27.5.jar' in 755ms.
+[05:32:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[05:32:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), Graves (4.9), Shop (1), SkinsRestorer (15.6.3), SmoothTimber (1.27.5), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
+[05:32:56] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05:32:57] [ServerMain/INFO]: Loaded 1290 recipes
+[05:32:57] [ServerMain/INFO]: Loaded 1399 advancements
+[05:32:58] [Server thread/INFO]: Starting minecraft server version 1.21
+[05:32:58] [Server thread/INFO]: Loading properties
+[05:32:58] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[05:32:58] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:32:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:32:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:32:59] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[05:32:59] [Server thread/INFO]: Default game type: SURVIVAL
+[05:32:59] [Server thread/INFO]: Generating keypair
+[05:32:59] [Server thread/INFO]: Starting Minecraft server on *:44077
+[05:33:00] [Server thread/INFO]: Using epoll channel type
+[05:33:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:33:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[05:33:00] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 3 libraries... please wait
+[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.46.1.0/sqlite-jdbc-3.46.1.0.jar
+[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.2/postgresql-42.7.2.jar
+[05:33:02] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/tralaleros-msp/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar
+[05:33:02] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[05:33:09] [Server thread/WARN]: Legacy plugin Shop v1 does not specify an api-version.
+[05:33:09] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:33:11] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[05:33:11] [Server thread/INFO]: [floodgate] Took 1,732ms to boot Floodgate
+[05:33:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.3.2
+[05:33:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.3.2 is now loaded. Registering protocol transformers and injecting...
+[05:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[05:33:12] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[05:33:14] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v1.5.6-beta
+[05:33:14] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.7.1-SNAPSHOT
+[05:33:15] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[05:33:15] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[05:33:15] [Server thread/INFO]: [SmoothTimber] Loading server plugin SmoothTimber v1.27.5
+[05:33:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.3
+[05:33:15] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[05:33:16] [Server thread/INFO]: [Shop] Loading server plugin Shop v1
+[05:33:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:33:16] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.3
+[05:33:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.0.
+[05:33:17] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[05:33:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[05:33:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:33:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:33:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:33:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:33:18] [Server thread/INFO]: Preparing level "world"
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.3
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eb6dc6
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[05:33:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[05:33:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:33:19] [Server thread/INFO]: Time elapsed: 843 ms
+[05:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[05:33:19] [Server thread/INFO]: Time elapsed: 229 ms
+[05:33:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[05:33:20] [Server thread/INFO]: Time elapsed: 126 ms
+[05:33:20] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:33:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.3.2
+[05:33:20] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[05:33:20] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v1.5.6-beta
+[05:33:20] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[05:33:20] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[05:33:20] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[05:33:21] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[05:33:21] [Server thread/INFO]: [BackpackPlus] Tables and indexes created successfully.
+[05:33:21] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[05:33:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:33:21] [Server thread/INFO]: [SmoothTimber] Enabling SmoothTimber v1.27.5
+[05:33:22] [Server thread/INFO]: SmoothTimber || You're currently using the supported Minecraft Version 1.21 (Core v1_20x)
+[05:33:22] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[05:33:22] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[05:33:22] [Server thread/ERROR]: Error occurred while enabling Graves v4.9 (Is it up to date?)
 java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at Graves-4.9.jar/com.ranull.graves.manager.VersionManager.<init>(VersionManager.java:23) ~[Graves-4.9.jar:?]
 	at Graves-4.9.jar/com.ranull.graves.Graves.onEnable(Graves.java:66) ~[Graves-4.9.jar:?]
@@ -100,8 +107,8 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:03:50] [Server thread/INFO]: [Graves] Disabling Graves v4.9
-[05:03:50] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
+[05:33:22] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[05:33:22] [Server thread/ERROR]: Error occurred while disabling Graves v4.9
 java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataManager.closeConnection()" because "this.dataManager" is null
 	at Graves-4.9.jar/com.ranull.graves.Graves.onDisable(Graves.java:95) ~[Graves-4.9.jar:?]
 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
@@ -119,96 +126,161 @@ java.lang.NullPointerException: Cannot invoke "com.ranull.graves.manager.DataMan
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[05:03:50] [Server thread/INFO]: [spark] Starting background profiler...
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] 
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] 
-[05:03:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[05:04:03] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
-[05:04:03] [Server thread/INFO]: [Geyser-Spigot] Done (11.881s)! Run /geyser help for help!
-[05:04:03] [Server thread/INFO]: Done preparing level "world" (20.738s)
-[05:04:03] [Server thread/INFO]: Running delayed init tasks
-[05:04:03] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[05:04:03] [Server thread/INFO]: Done (54.729s)! For help, type "help"
-[05:04:03] [Server thread/INFO]: Timings Reset
-[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
-[05:04:03] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
-[05:04:23] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
-[05:04:24] [Server thread/INFO]: tsubakitadake joined the game
-[05:04:25] [Server thread/INFO]: tsubakitadake[/127.39.151.167:51921] logged in with entity id 36 at ([world]44.25308072273609, 79.0, -161.3126868260073)
-[05:05:09] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
-[05:05:09] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
-[05:05:10] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
-[05:05:10] [Server thread/INFO]: .flama234 joined the game
-[05:05:10] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 267 at ([world]21.216259, 72.0, -160.5701)
-[05:05:28] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:06:10] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
-[05:06:10] [localSession-7-3/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
-[05:06:11] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
-[05:06:11] [Server thread/INFO]: .CrossJuli_uwu joined the game
-[05:06:11] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 358 at ([world]78.27736, 128.0, 145.04823)
-[05:06:12] [Server thread/INFO]: .flama234 was doomed to fall by tsubakitadake
-[05:06:34] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[05:06:34] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[05:08:58] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:12:15] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[05:12:15] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[05:13:44] [Server thread/INFO]: .flama234 was slain by tsubakitadake
-[05:20:38] [epollEventLoopGroup-4-2/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Bedrock client disconnected
-[05:20:38] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
-[05:20:38] [Server thread/INFO]: .CrossJuli_uwu lost connection: Disconnected
-[05:20:38] [Server thread/INFO]: .CrossJuli_uwu left the game
-[05:24:58] [epollEventLoopGroup-4-3/INFO]: [Geyser-Spigot] Player connected with username CrossJuli uwu
-[05:24:58] [localSession-7-4/INFO]: [Geyser-Spigot] CrossJuli uwu (logged in as: CrossJuli_uwu) has connected to the Java server
-[05:24:58] [Server thread/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu joined (UUID: 00000000-0000-0000-0009-01f6b38ef621)
-[05:24:58] [Server thread/INFO]: .CrossJuli_uwu joined the game
-[05:24:58] [Server thread/INFO]: .CrossJuli_uwu[/127.0.0.1:0] logged in with entity id 4338 at ([world]77.57006, 128.0, 137.50974)
-[05:31:13] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
-[05:31:13] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
-[05:31:37] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
-[05:31:37] [Server thread/INFO]: tsubakitadake lost connection: Server is restarting
-[05:31:37] [Server thread/INFO]: tsubakitadake left the game
-[05:31:37] [Server thread/INFO]: .flama234 lost connection: Server is restarting
-[05:31:37] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
-[05:31:37] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Server is restarting
-[05:31:37] [Server thread/INFO]: .flama234 left the game
-[05:31:37] [Server thread/INFO]: .CrossJuli_uwu lost connection: Server is restarting
-[05:31:37] [Geyser Spigot connection thread-6-1/INFO]: [floodgate] Floodgate player logged in as .CrossJuli_uwu disconnected
-[05:31:37] [localSession-7-4/INFO]: [Geyser-Spigot] CrossJuli uwu has disconnected from the Java server because of Server is restarting
-[05:31:37] [Server thread/INFO]: .CrossJuli_uwu left the game
-[05:31:37] [Server thread/INFO]: Stopping server
-[05:31:37] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
-[05:31:37] [Server thread/INFO]: [GraveLootZ] Disabling GraveLootZ v1.0.0
-[05:31:37] [Server thread/INFO]: [GraveLootZ] GraveLootZ has been disabled!
-[05:31:37] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
-[05:31:37] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[05:31:37] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[05:31:37] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
-[05:31:37] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
-[05:31:37] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
-[05:31:37] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[05:31:37] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
-[05:31:37] [Server thread/INFO]: Saving players
-[05:31:37] [Server thread/INFO]: Saving worlds
-[05:31:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05:31:37] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[05:31:37] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[05:31:37] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[05:31:38] [WebSocketConnectReadThread-107/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Saved 38 block chunks, 306 entity chunks, 0 poi chunks in world 'world' in 0.11s
-[05:31:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[05:31:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[05:31:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[05:31:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05:31:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05:31:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05:31:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:33:22] [Server thread/INFO]: [Shop] Enabling Shop v1*
+[05:33:22] [Server thread/INFO]: [Shop] Plugin Enabled
+[05:33:22] [Server thread/INFO]: [spark] Starting background profiler...
+[05:33:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:33:22] [Server thread/INFO]: [Geyser-Spigot] 
+[05:33:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.7.1-b831 (git-master-b705a71)
+[05:33:22] [Server thread/INFO]: [Geyser-Spigot] 
+[05:33:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[05:33:31] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 1738
+[05:33:31] [Server thread/INFO]: [Geyser-Spigot] Done (8.958s)! Run /geyser help for help!
+[05:33:31] [Server thread/INFO]: Done preparing level "world" (13.452s)
+[05:33:31] [Server thread/INFO]: Running delayed init tasks
+[05:33:31] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[05:33:31] [Server thread/INFO]: Done (41.903s)! For help, type "help"
+[05:33:31] [Server thread/INFO]: Timings Reset
+[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: The plugin is up to date: (BETA 1.5.6)
+[05:33:32] [Craft Scheduler Thread - 7 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[05:33:56] [Craft Scheduler Thread - 7 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
+[05:33:56] [Craft Scheduler Thread - 7 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
+[05:34:44] [Craft Scheduler Thread - 11 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
+[05:34:44] [Craft Scheduler Thread - 11 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
+[05:37:10] [User Authenticator #0/INFO]: UUID of player tsubakitadake is 1ca7b620-844f-3d7f-be47-b1d5942e23a7
+[05:37:11] [Server thread/INFO]: tsubakitadake joined the game
+[05:37:12] [Server thread/INFO]: tsubakitadake[/127.39.151.167:50007] logged in with entity id 34 at ([world]21.04268552748952, 73.0, -157.72121307514553)
+[05:37:25] [Server thread/INFO]: tsubakitadake issued server command: /sm toogle
+[05:37:32] [Server thread/INFO]: tsubakitadake issued server command: /sm help
+[05:37:47] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
+[05:37:54] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
+[05:40:29] [Craft Scheduler Thread - 33 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
+[05:40:29] [Craft Scheduler Thread - 33 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
+[05:40:32] [Craft Scheduler Thread - 34 - SmoothTimber/INFO]: SmoothTimber || Detected a setting change, reloading settings...
+[05:40:32] [Craft Scheduler Thread - 34 - SmoothTimber/INFO]: SmoothTimber || settings reloaded successfully!
+[05:40:49] [Server thread/INFO]: tsubakitadake issued server command: /sm toggle
+[05:41:36] [Server thread/INFO]: tsubakitadake issued server command: /grave
+[05:41:36] [Server thread/ERROR]: Command exception: /grave
+org.bukkit.command.CommandException: Cannot execute command 'grave' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:41:42] [Server thread/INFO]: tsubakitadake issued server command: /graves
+[05:41:42] [Server thread/ERROR]: Command exception: /graves
+org.bukkit.command.CommandException: Cannot execute command 'graves' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:41:53] [Server thread/INFO]: tsubakitadake issued server command: /graves:deathchest
+[05:41:53] [Server thread/ERROR]: Command exception: /graves:deathchest
+org.bukkit.command.CommandException: Cannot execute command 'graves:deathchest' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:42:01] [Server thread/INFO]: tsubakitadake issued server command: /graves tsubakitadake
+[05:42:01] [Server thread/ERROR]: Command exception: /graves tsubakitadake
+org.bukkit.command.CommandException: Cannot execute command 'graves' in plugin Graves v4.9 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]

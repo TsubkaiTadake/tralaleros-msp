@@ -1,0 +1,7 @@
+# SyntaxPhoenixStats collects some data for SyntaxPhoenix to give you an better experience. 
+# This software has nearly no effect on the server performance!
+# For more Infos check out https://stats.syntaxphoenix.com
+
+enabled: true
+ServerUUID: c469a990-9558-4fde-a65c-7e9641d53577
+Logging: false
