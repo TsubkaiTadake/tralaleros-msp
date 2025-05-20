@@ -284,3 +284,53 @@ org.bukkit.command.CommandException: Cannot execute command 'graves' in plugin G
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[05:44:13] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username flama234
+[05:44:13] [localSession-7-2/INFO]: [Geyser-Spigot] flama234 (logged in as: flama234) has connected to the Java server
+[05:44:13] [Server thread/INFO]: [floodgate] Floodgate player logged in as .flama234 joined (UUID: 00000000-0000-0000-0009-01f9b67a7019)
+[05:44:14] [Server thread/INFO]: .flama234 joined the game
+[05:44:14] [Server thread/INFO]: .flama234[/127.0.0.1:0] logged in with entity id 884 at ([world]-14.555185685011976, 75.94896593481052, -168.46347188165228)
+[05:44:39] [Server thread/INFO]: .flama234 was shot by Skeleton
+[05:45:10] [Server thread/INFO]: tsubakitadake issued server command: /time set noon
+[05:45:10] [Server thread/INFO]: [tsubakitadake: Set the time to 6000]
+[05:46:12] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] flama234 has disconnected from the Java server because of Bedrock client disconnected
+[05:46:12] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .flama234 disconnected
+[05:46:12] [Server thread/INFO]: .flama234 lost connection: Disconnected
+[05:46:12] [Server thread/INFO]: .flama234 left the game
+[05:46:45] [Server thread/INFO]: Stopping the server
+[05:46:45] [Server thread/INFO]: Stopping server
+[05:46:45] [Server thread/INFO]: [Shop] Disabling Shop v1
+[05:46:45] [Server thread/INFO]: [Shop] Plugin Disabled
+[05:46:45] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.6.3
+[05:46:45] [Server thread/INFO]: [SmoothTimber] Disabling SmoothTimber v1.27.5
+[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.7.1-SNAPSHOT
+[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[05:46:45] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[05:46:45] [Server thread/INFO]: [BackpackPlus] Disabling BackpackPlus v1.5.6-beta
+[05:46:45] [Server thread/INFO]: [BackpackPlus] SQLite Successfully disconnected from the database
+[05:46:45] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.3.2
+[05:46:45] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[05:46:45] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:46:45] [Server thread/INFO]: Saving players
+[05:46:45] [Server thread/INFO]: tsubakitadake lost connection: Server closed
+[05:46:45] [Server thread/INFO]: tsubakitadake left the game
+[05:46:45] [Server thread/INFO]: Saving worlds
+[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:46:45] [WebSocketConnectReadThread-111/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 226 block chunks, 341 entity chunks, 0 poi chunks in world 'world' in 0.43s
+[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[05:46:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:46:45] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:46:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
