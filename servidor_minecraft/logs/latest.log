@@ -1,11 +1,11 @@
-[03:43:22] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[03:43:22] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[03:43:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:43:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[03:43:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+[03:44:48] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[03:44:48] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[03:44:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:44:49] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[03:44:49] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
  - AxGraves (1.20.1), BackpackPlus (1.5.6-beta), Geyser-Spigot (2.7.1-SNAPSHOT), Shop (1), SkinsRestorer (15.6.3), SmoothTimber (1.27.5), ViaVersion (5.3.2), floodgate (2.2.4-SNAPSHOT (b116-0e3163c))
-[03:43:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:43:28] [ServerMain/ERROR]: Failed to start the minecraft server
+[03:44:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:44:55] [ServerMain/ERROR]: Failed to start the minecraft server
 net.minecraft.util.DirectoryLock$LockException: /workspaces/tralaleros-msp/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.jar:1.21-130-b1b5d4c]
